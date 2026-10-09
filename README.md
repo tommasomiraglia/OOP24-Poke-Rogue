@@ -39,10 +39,6 @@ it.unibo.pokerogue
 
 Java, Gradle (Kotlin DSL), JUnit 5, Lombok, org.json, Apache Commons JEXL3, jOOL, SLF4J + Logback.
 
-## My contribution
-
-*Describe here the parts you worked on.*
-
 ## Documentation
 
 The full project report (analysis, UML diagrams, development notes, user guide) is in [`report/report.pdf`](report/report.pdf), written in Italian.
