@@ -4,6 +4,12 @@ A Java desktop roguelike inspired by [PokéRogue](https://pokerogue.net/), built
 
 **Authors:** Alex Casadio, Pietro Maretti, Tommaso Cosimo Miraglia, Egor Tverdohleb
 
+> **Note:** This is a mirror of our original team repository, which is no longer available. The code was imported here as a single commit, so the original commit history by each author is not preserved.
+
+## My contribution
+
+[Write 1-3 lines on the parts you built, e.g. "I designed and implemented the shop system and the save system, including JSON persistence and the related tests."]
+
 ## Game overview
 
 - **Roguelike structure:** a run is a streak of battles against increasingly strong enemies, ending after 100 victories or at game over.
@@ -18,13 +24,11 @@ A Java desktop roguelike inspired by [PokéRogue](https://pokerogue.net/), built
 
 The project follows the MVC pattern, with interfaces (`api` packages) separated from implementations (`impl` packages).
 
-```
-it.unibo.pokerogue
-├── controller   Game loop, scenes, battle engine, enemy AI, effect interpreter
-├── model        Pokémon, moves, abilities, items, trainers, factories, saving system
-├── view         One view per scene (fight, shop, save, box, menu, ...)
-└── utilities    Damage and effectiveness calculators, JSON reading, helpers
-```
+    it.unibo.pokerogue
+    ├── controller   Game loop, scenes, battle engine, enemy AI, effect interpreter
+    ├── model        Pokémon, moves, abilities, items, trainers, factories, saving system
+    ├── view         One view per scene (fight, shop, save, box, menu, ...)
+    └── utilities    Damage and effectiveness calculators, JSON reading, helpers
 
 ## Design highlights
 
@@ -41,7 +45,7 @@ Java, Gradle (Kotlin DSL), JUnit 5, Lombok, org.json, Apache Commons JEXL3, jOOL
 
 ## Documentation
 
-The full project report (analysis, UML diagrams, development notes, user guide) is in [`report/report.pdf`](report/report.pdf), written in Italian.
+The full project report (analysis, UML diagrams, development notes, user guide) is in [`report/report.pdf`](report/report.pdf), written in Italian. It also details which parts each author developed.
 
 ## License
 
